@@ -9,7 +9,7 @@ body{
     background-image: url("imagenes/fondo.jpg");
     height: 100%;
     width: 100%;
-    line-height: 1.6;
+    line-height: 1.6; /*interlineado*/
 }
 .navegador{
     font-size: large;
@@ -105,6 +105,7 @@ footer{
     margin-bottom: 0.5%;
 }
 .container-sobre-mi{
+    line-height: 200%;
     padding-top: 10%;
     display: flex;
     justify-content: space-around;
@@ -128,4 +129,38 @@ footer{
 }
 .contenedor .mapa{
     padding-top: 10%;
+}
+@media screen and (max-width: 640px){
+    .navegador{
+        height: 10%;
+        width: 100%;
+    }
+    .titulo {
+        text-align: left;
+    }
+    .container {
+        margin: 2px;
+        justify-content: left;
+    }
+    .container-sobre-mi{
+        margin-top: 2%;
+        flex-direction: column;
+        margin-left: 2%;
+    }
+    .contenedor {
+        margin: 0% 5%;
+    }
+    .container-sobre-mi img{
+        height: 230px;
+        width: 230px;
+    }
+}
+@media screen and (min-width: 640px) and (max-whidth: 1280px){
+    .navegador{
+        height: 10%;
+        width: 100%;
+    }
+    .container .card {
+        margin: 10px;
+    }
 }
