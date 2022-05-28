@@ -143,19 +143,32 @@ footer{
         margin-left: 2%;
     }
     .contenedor {
+        display: flex;
+        flex-direction: column;
         margin: 0% 5%;
+    }
+    .contenedor .mapa{
+        width: 250px;
+        height: 250px;
+    }
+    h2{
+        font-size: 1em;
     }
     .container-sobre-mi img{
         height: 230px;
         width: 230px;
     }
 }
-@media screen and (min-width: 640px) and (max-whidth: 1280px){
+@media screen and (min-width: 640px), and (max-whidth: 1280px){
     .navegador{
         height: 10%;
         width: 100%;
     }
     .container .card {
         margin: 10px;
+    }
+    .container-sobre-mi{
+        margin-top: 2%;
+        margin-left: 2%;
     }
 }
