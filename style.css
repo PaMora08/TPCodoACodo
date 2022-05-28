@@ -170,11 +170,8 @@ footer{
         padding-top: 10%;
         margin-left: 2%;
     }
-    .contenedor{
-        padding-top: 10% ;
-    }
+   
     .contenedor .mapa{
-        padding: 15% 5%;
         width: auto;
         height: auto;
     }
