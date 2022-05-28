@@ -154,7 +154,7 @@ footer{
     }
     .contenedor .mapa{
         padding: 10% 5%;
-        width: 250px;
+        width: auto;
         height: auto;
     }
     .container-sobre-mi img{
@@ -172,5 +172,10 @@ footer{
     }
     .contenedor{
         padding-top: 10% ;
+    }
+    .contenedor .mapa{
+        padding: 15% 5%;
+        width: auto;
+        height: auto;
     }
 }
