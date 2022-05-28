@@ -81,9 +81,7 @@ ul {
 li {
     display: inline;
 }
-.derecha{
-    float:right;
-}
+
 .btn{
     background-color: #c5b0bb;
     color: black;
@@ -100,9 +98,6 @@ footer{
     margin-top: 2%;    
     height: 17%;
     text-align: center;
-}
-.redes{
-    margin-bottom: 0.5%;
 }
 .container-sobre-mi{
     line-height: 200%;
